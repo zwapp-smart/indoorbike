@@ -4,7 +4,7 @@
 # パワー計算と負荷レベル計算
 
 zwapp-smartのindoorbikeは、速度や斜度からパワーや負荷レベルの計算をプログラミングで行っています。
-ソースコードは、MicroPython言語でプログラミングされており、ファイル名は、`simu.py`です。
+ソースコードは、MicroPython言語でプログラミングされており、ファイル名は、`simu.py`です(`src`フォルダ内)。
 
 ## simu.speedAndWatt - 速度とパワーの計算
 
