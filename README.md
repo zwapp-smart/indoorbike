@@ -81,7 +81,7 @@ USBデータ通信ケーブルで接続したマイコンに`ampy`コマンド�
 
 `ampy`コマンドを実行するには、`Python3`と`adafruit-ampy`のインストールが必要です。
 
-1. Python3をインストールします
+1. [Python3をダウンロード](https://www.python.org/downloads/)し、インストールします
 1. `pip install -y adafruit-ampy`コマンドで、`adafruit-ampy`をインストールします
 
 ## 更新（ファイル転送）
