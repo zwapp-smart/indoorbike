@@ -84,6 +84,19 @@ USBデータ通信ケーブルで接続したマイコンに`ampy`コマンド�
 1. [Python3をダウンロード](https://www.python.org/downloads/)し、インストールします
 1. `pip install -y adafruit-ampy`コマンドで、`adafruit-ampy`をインストールします
 
+
+## ソースコードの入手
+
+ソースコードの入手方法には、3つの方法があります。いずれかの方法で入手します。
+
+1. git clone コマンドで、gitクローンとしてダウンロードする  
+   → 詳細は、インターネットで検索して調べてください。
+1. ZIP形式ファイルでダウンロードする  
+   → 右上の**「CODE」（緑色）**をクリックし、DOWNLOAD ZIPでダウンロードします。
+1. 必要なファイルだけをダウンロードする  
+   → 例えば、[/src/simu.py](/src/simu.py)を開き、コード右上の「Raw」を「名前を付けてリンク先を保存」します。
+
+
 ## 更新（ファイル転送）
 
 マイコンとPCとをUSBデータ通信ケーブルで接続し、次のコマンドで`simu.py`ファイルを転送します。
@@ -97,3 +110,17 @@ ampy --port=/dev/ttyS8 put simu.py
 
 > Note:  
 > `/dev/ttyS8` の部分は、各PCの環境に合わせます  
+<br>
+
+# 汎用スマホアプリの使い方
+
+スマホなどに次のアプリをインストールしてください。
+
+**【Android】**  
+[nRF Connect for Mobile](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=ja&gl=US)  
+
+**【App Store】**  
+[nRF Connect: Bluetooth App](https://apps.apple.com/jp/app/nrf-connect/id1054362403)
+
+`Zwapp-SMART`に接続すると、速度やパワーを表示ししたり、負荷を制御したりできます。  
+負荷の制御方法は、動画を参照してください。→ [nRF_zwapp_level.mp4](https://drive.google.com/file/d/16X56UKOughl4k4ioNAlPbwCuKAxUZBo4/view?usp=sharing)  
